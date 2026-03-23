@@ -26,7 +26,7 @@ NVD, Nuclei, PayloadsAllTheThings, ExploitDB 등 대규모 보안 데이터를 �
 | 정승윤 | 데이터 전처리, LangGraph & LangChain 구현, RAG 성능 향상 |
 | 문선영 | 데이터 전처리, Vector DB 적재, Hybrid Search 구현 |
 | 신대환 | 데이터 전처리, Vector DB 적재, Reranking 구현 |
-| 이정재 | 데이터 전처리, LangGraph & LangChain 구현, UI 제작 |
+| 이정재 | 데이터 전처리, LangGraph & LangChain 구현, UI 제작, RAG 성능 향상 |
 
 ---
 
