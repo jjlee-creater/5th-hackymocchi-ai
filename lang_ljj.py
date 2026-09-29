@@ -23,7 +23,10 @@ from langgraph.graph import StateGraph, END
 
 # --- 기본 설정 ---
 MODEL_ID = "llama3.2"  # 더 안정적인 모델로 변경 (또는 dolphin-llama3)
-DB_PATH = r"C:\Users\leejs\Desktop\gdg_honeypot_server\home\ubuntu\hackymocchi\chroma_data"
+DB_PATH = os.environ.get(
+    "HACKYMOCCHI_DB_PATH",
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "chroma_data"),
+)
 COLLECTION_KNOWLEDGE = "vuln_knowledge"
 COLLECTION_PAYLOADS = "hacking_payloads"
 
